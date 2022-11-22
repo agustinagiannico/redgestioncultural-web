@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("@mdi/font/css/materialdesignicons.css");
 html,
 body {
   padding: 0;
@@ -28,3 +29,30 @@ a {
     background: black;
   }
 }
+
+.bg-circles {
+  background-image: url(/assets/circles.svg);
+  background-size: auto;
+  background-repeat: repeat-y;
+  padding-top: 90px;
+  padding-bottom: 0;
+  background-position: top;
+  }
+  .bg-hands {
+    background-image: url(/assets/img/hands.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+  .bg-people {
+      background-image: url(/assets/img/people.jpg);
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .bg-lights {
+    background-image: url(/assets/img/lights.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
