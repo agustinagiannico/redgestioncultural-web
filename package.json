@@ -10,14 +10,19 @@
   },
   "dependencies": {
     "@mdi/font": "^7.0.96",
+    "@next/font": "^13.1.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
+    "flowbite": "^1.6.0",
     "next": "13.0.3",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
+    "react-easy-swipe": "^0.0.22",
+    "react-twitter-embed": "^4.0.4",
     "typescript": "4.9.3"
   },
   "devDependencies": {
